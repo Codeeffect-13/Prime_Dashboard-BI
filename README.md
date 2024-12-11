@@ -1,34 +1,58 @@
 # Prime_Dashboard-BI
-This is Power BI end to end project
-Description of Dashboard
-1.	Total Titles, Ratings, Genres, Directors:
-o	Total titles (9,655) represent the total number of available shows and movies.
-o	Total ratings (25) refer to the different content ratings (e.g., PG, 16+, etc.).
-o	Total genres (519) show the number of unique genres included in the content database.
-o	Total directors (5,771) show the number of directors involved in creating the content.
-o	Start and End Dates (1920–2021) indicate the range of years during which these shows were released.
-2.	Ratings by Total Shows:
-o	A bar chart representing the number of shows and movies by their ratings, such as 13+, 16+, R, PG-13, etc. The most popular rating is 13+, with 2,117 titles.
-3.	Genres by Total Shows:
-o	A bar chart of different genres and how many shows fall under each. Drama (986) is the most common genre, followed by Comedy (536).
-4.	Total Shows by Country:
-o	A world map visual where the color intensity shows the number of titles released from each country. The focus seems to be on major countries contributing content (e.g., the U.S., Europe).
-5.	Movies and TV Shows Split:
-o	A pie chart showing the breakdown between Movies (19.18%) and TV Shows (80.82%) across Amazon Prime's database.
-6.	Total Shows Released by Year:
-o	A line graph tracking the number of titles released each year, with a clear increase in content after the year 2000.
-General Steps to Create the Dashboard:
-1.	Data Preparation:
-o	Data Collection: Gather data related to Amazon Prime shows from Kaggle.
-o	Data Cleaning: Ensure there are no missing or inconsistent data points, such as unassigned genres or ratings.
-2.	Setting up in Power BI:
-o	Data Import: Load your data into Power BI, ensuring that each dataset (titles, ratings, genres, etc.) is structured correctly.
-o	Data Modelling: Establish relationships between the datasets if they are split across different tables (e.g., linking titles to ratings and genres).
-3.	Creating Visualizations:
-o	Cards for Summary Statistics
-o	Bar Charts
-o	Map Visualization
-o	Pie Chart
-o	Line Chart
-This dashboard provides a rich overview of Amazon Prime Video content, showing data trends by rating, genre, release date, and country of origin. You effectively summarize a large dataset using Power BI’s powerful visualization tools.
-
+Amazon Prime Video Content Dashboard
+This project is a comprehensive Power BI dashboard designed to provide insights into Amazon Prime Video’s content database. The dashboard offers a detailed view of content trends, including ratings, genres, countries of origin, and release timelines.
+________________________________________
+Dashboard Features
+1. Total Titles, Ratings, Genres, Directors:
+•	Total Titles: 9,655 titles represent the total number of shows and movies available on Amazon Prime Video.
+•	Total Ratings: 25 unique content ratings (e.g., PG, 16+, R) indicate the variety of audience classifications.
+•	Total Genres: 519 unique genres capture the diverse range of content available.
+•	Total Directors: 5,771 directors involved in creating this content.
+•	Start and End Dates: The range spans from 1920 to 2021, highlighting a century of entertainment.
+2. Ratings by Total Shows:
+•	A bar chart visualizes the number of titles under each rating category.
+•	Key Insight: The most popular rating is 13+, with 2,117 titles.
+3. Genres by Total Shows:
+•	A bar chart displays the number of titles in each genre.
+•	Key Insight: The most common genre is Drama (986 titles), followed by Comedy (536 titles).
+4. Total Shows by Country:
+•	A world map visualization shows the number of titles originating from each country.
+•	Key Insight: Major contributions come from countries like the United States and European nations.
+5. Movies and TV Shows Split:
+•	A pie chart highlights the percentage breakdown:
+o	Movies: 19.18%
+o	TV Shows: 80.82%
+6. Total Shows Released by Year:
+•	A line graph tracks annual content releases.
+•	Key Insight: A significant increase in releases is observed post-2000.
+________________________________________
+General Steps to Create the Dashboard
+1. Data Preparation:
+•	Data Collection:
+o	Source: Kaggle dataset containing Amazon Prime Video content information.
+•	Data Cleaning:
+o	Remove missing or inconsistent data points, such as unassigned genres or ratings.
+2. Setting up in Power BI:
+•	Data Import:
+o	Load cleaned data into Power BI, ensuring each dataset is properly structured.
+•	Data Modelling:
+o	Establish relationships between datasets (e.g., linking titles to ratings and genres).
+3. Creating Visualizations:
+•	Cards for Summary Statistics:
+o	Display total titles, ratings, genres, and directors.
+•	Bar Charts:
+o	Show ratings and genres by the number of titles.
+•	Map Visualization:
+o	Represent content origin by country.
+•	Pie Chart:
+o	Illustrate the split between movies and TV shows.
+•	Line Chart:
+o	Depict content release trends over time.
+________________________________________
+Insights
+This dashboard offers a comprehensive overview of Amazon Prime Video’s content database. Key insights include:
+•	Popular ratings and genres.
+•	Major contributing countries.
+•	A noticeable rise in content production post-2000.
+•	Dominance of TV shows over movies in the platform’s library.
+________________________________________
